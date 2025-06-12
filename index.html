@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Big One Coffee & Eatery - Beranda</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header with sticky navbar -->
+  <header>
+    <div class="logo">
+      <img src="a1.jpg" alt="Big One Coffee & Eatery Logo" />
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="tentang-kami.html">Tentang Kami</a></li>
+        <li><a href="keunggulan-kami.html">Keunggulan Kami</a></li>
+        <li><a href="menu-kami.html">Menu Kami</a></li>
+        <li><a href="restaurant.html">Restaurant</a></li>
+        <li><a href="news-promo.html">News + Promo</a></li>
+        <li><a href="index.html">Beranda</a></li>
+      </ul>
+    </nav>
+    <div class="delivery">
+      <a href="javascript:void(0);" onclick="toggleDeliveryInfo()">
+        <span class="icon">📞</span> Delivery ▼
+      </a>
+      <div id="delivery-info" class="delivery-info">
+        <p>Depok - 089637566907</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Slider Section -->
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slides">
+        <div class="slide">
+          <img src="a2.jpg" alt="Delicious Coffee 1" />
+        </div>
+        <div class="slide">
+          <img src="a3.webp" alt="Delicious Coffee 2" />
+        </div>
+        <div class="slide">
+          <img src="d5.jpeg" alt="Delicious Coffee & Snacks 3" />
+        </div>
+      </div>
+      <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+      <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+  </div>
+
+  <!-- Menu Favorit Section -->
+  <section id="menu-favorit" class="menu-favorit-section">
+    <h2>Menu Favorit</h2>
+    <p>Di Big One Coffee & Eatery, kami menyajikan beragam pilihan kopi spesial dan hidangan lezat yang cocok untuk menemani waktu santai Anda. Berikut beberapa menu favorit kami:</p>
+
+    <div class="menu-images">
+      <div class="menu-item">
+        <img src="a5.jpg" alt="Espresso" />
+        <p>Espresso</p>
+      </div>
+      <div class="menu-item">
+        <img src="a6.jpg" alt="Cappuccino" />
+        <p>Cappuccino</p>
+      </div>
+      <div class="menu-item">
+        <img src="a7.jpg" alt="Croissant" />
+        <p>Croissant</p>
+      </div>
+      <div class="menu-item">
+        <img src="a8.jpg" alt="Panini" />
+        <p>Panini</p>
+      </div>
+    </div>
+
+    <!-- Menu Button -->
+    <div class="menu-button">
+      <a href="menu-kami.html">Menu</a>
+    </div>
+  </section>
+
+  <!-- Fasilitas Section -->
+  <section id="fasilitas" class="fasilitas-section">
+    <h2>Fasilitas</h2>
+    <p>Big One Coffee & Eatery menyediakan berbagai fasilitas untuk kenyamanan dan kepuasan Anda selama berkunjung:</p>
+
+    <div class="fasilitas-images">
+      <div class="fasilitas-item">
+        <img src="a11.jpg" alt="Wi-Fi Gratis" />
+        <p>Wi-Fi Gratis</p>
+        <p>Nikmati koneksi internet cepat dan stabil saat bersantai bersama kami.</p>
+      </div>
+      <div class="fasilitas-item">
+        <img src="a9.jpg" alt="Area Parkir Luas" />
+        <p>Area Parkir Luas</p>
+        <p>Parkir yang nyaman dan aman untuk kendaraan Anda.</p>
+      </div>
+      <div class="fasilitas-item">
+        <img src="a10.jpg" alt="Ruang Meeting" />
+        <p>Ruang Meeting</p>
+        <p>Fasilitas ruang meeting yang cocok untuk pertemuan bisnis atau komunitas.</p>
+      </div>
+      <div class="fasilitas-item">
+        <img src="a12.png" alt="Live Music" />
+        <p>Live Music</p>
+        <p>Hibur diri Anda dengan penampilan musik live setiap akhir pekan.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
